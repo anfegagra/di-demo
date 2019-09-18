@@ -5,8 +5,10 @@ import org.springframework.stereotype.Service;
 @Service
 public class GreetingServiceImpl implements GreetingService {
 
+    public static final String HELLO_KAKAROTO = "Hola, soy goku!";
+
     @Override
     public String sayHello() {
-        return "Hola, soy goku!";
+        return HELLO_KAKAROTO;
     }
 }
