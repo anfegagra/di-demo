@@ -1,7 +1,9 @@
 package guru.springframework.didemo.controllers;
 
 import guru.springframework.didemo.services.GreetingServiceImpl;
-import org.junit.Assert;
+
+import static org.junit.Assert.assertEquals;
+
 import org.junit.Before;
 import org.junit.Test;
 
@@ -17,6 +19,6 @@ public class PropertyInjectedControllerTest {
 
     @Test
     public void testGreeting() {
-        Assert.assertEquals(GreetingServiceImpl.HELLO_KAKAROTO, propertyInjectedController.sayHello());
+        assertEquals(GreetingServiceImpl.HELLO_KAKAROTO, propertyInjectedController.sayHello());
     }
 }
