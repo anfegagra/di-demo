@@ -1,0 +1,5 @@
+guru:
+  jms:
+    username: Pipe Jms
+    password: Pipe Jms Password
+    url: Pipe Jms Url
