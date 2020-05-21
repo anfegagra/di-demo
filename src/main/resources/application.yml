@@ -3,3 +3,10 @@ guru:
     username: Pipe Jms
     password: Pipe Jms Password
     url: Pipe Jms Url
+
+---
+spring:
+  profiles: de
+guru:
+  jms:
+    url: Pipe Jms Url >>>> IN GERMAN
